@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Open-Sans-400", sans-serif;
+  src: url("../fonts/Open-Sans-Regular.woff") format("woff"),
+    url("../fonts/Open-Sans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open-Sans-600", sans-serif;
+  src: url("Open-Sans-SemiBold.woff") format("woff"),
+    url("Open-Sans-SemiBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open-Sans-700";
+  src: url("../fonts/Open-Sans-Bold.woff") format("woff"),
+    url("../fonts/Open-Sans-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HKGrotesk-400";
+  src: url("../fonts/hkgrotesk-regular-web.woff") format("woff"),
+    url("../fonts/hkgrotesk-regular-web.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HKGrotesk-500";
+  src: url("../fonts/hkgrotesk-medium-web.woff") format("woff"),
+    url("../fonts/hkgrotesk-medium-web.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HKGrotesk-700";
+  src: url("../fonts/hkgrotesk-bold-web.woff") format("woff"),
+    url("../fonts/hkgrotesk-bold-web.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

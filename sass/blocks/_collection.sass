@@ -1,0 +1,46 @@
+.collection
+  margin-bottom: 145px
+  &-grid
+    max-width: 1140px
+    margin: auto
+    display: grid
+    gap: 30px
+    grid-template: 230px 230px / 320px 320px 1fr
+  &__image
+    border-radius: 8px
+    &--first
+      grid-row: 1 / 3
+      height: 100%
+    &--third
+      grid-row: 2 / 3
+      grid-column: 2 / 3
+  &__info
+    width: 412px
+    padding-top: 7px
+    padding-left: 27px
+  &__title
+    font-family: "HKGrotesk-700"
+    font-size: 48px
+    line-height: 60px
+    letter-spacing: 0.2px
+    color: #183B56
+    margin-bottom: 29px
+  &__text
+    font-family: Open Sans
+    font-size: 20px
+    line-height: 36px
+    color: $text-color
+    margin-bottom: 41px
+  &__show
+    font-family: Open Sans
+    font-weight: bold
+    font-size: 18px
+    line-height: 25px
+    color: $light
+.small-images
+  height: 490px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+.show-text
+  margin-right: 16px

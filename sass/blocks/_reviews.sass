@@ -1,0 +1,47 @@
+.container
+  &--reviews
+    display: flex
+    flex-direction: column
+    align-items: center
+.reviews
+  margin-bottom: 80px
+  &__slider
+    width: 800px
+    margin: auto
+  &__slide
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+  &__quotes
+    margin-bottom: 34px
+  &__text
+    font-family: "HKGrotesk-400"
+    font-size: 20px
+    line-height: 42px
+    text-align: center
+    letter-spacing: 0.133333px
+    color: $primary
+    margin-bottom: 28px
+    height: 168px
+    overflow-y: auto
+    &--w768
+      display: none
+    &--w320
+      display: none
+  &__autor
+    font-family: "HKGrotesk-700"
+    font-size: 20px
+    line-height: 24px
+    text-align: center
+    letter-spacing: 0.2px
+    color: $primary
+    margin-bottom: 50px
+.swiper-pagination
+  position: relative
+  display: flex
+  width: 47px
+  justify-content: space-between
+  &-bullet
+    width: 5px
+    height: 5px

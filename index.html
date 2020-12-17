@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ehya - интернет-магазин одежды</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script defer src="js/swiper-bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="header header__mobile header__mobile--fixed">  
+    <div class="header__overlay"></div>
+    <div class="container">
+      <div class="header-wrapper">
+        <a href="#" class="logo">
+          <img src="img/svg/Logo.svg" alt="Logo: Enya" class="logo__image">
+        </a>
+        <div class="header__menu">
+          <a href="#" class="header__close">
+            <img src="img/svg/close.svg" alt="icon: close">
+          </a>
+          <ul class="header__nav">
+            <li class="header__item"><a>Главная</a></li>
+            <li class="header__item"><a>Новинки</a></li>
+            <li class="header__item"><a>Тренды</a></li>
+            <li class="header__item"><a>Отзывы</a></li>
+            <li class="header__item"><a>Контакты</a></li>
+          </ul>
+          <button class="button header__login">Войти</button>
+        </div>
+        <!-- /.header__menu -->
+        <button class="menu-button header__menu-button">
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+        </button>
+      </div>
+      <!-- /.header-wrapper -->
+    </div>
+    <!-- /.container -->
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-wrapper">
+        <a href="#" class="hero__tag tag"># READY TO BE COOL</a>
+        <h1 class="hero__title">Каждый может быть&nbsp;крутым и&nbsp;модным</h1>
+        <p class="hero__text">Чтобы быть в тренде и стать модным, вам нужно носить отличную одежду и обновлять свой стиль. Всё
+          это вы можете найти
+          здесь. Начните сейчас.</p>
+        <button class="button hero__button">Подобрать одежду</button>
+        <ul class="hero__benefits">
+          <li class="hero__item hero__item--mr">
+            <img class="hero__icon" src="img/svg/pay.svg" alt="icon: online pay">
+            <span>Онлайн оплата</span>
+          </li>
+          <li class="hero__item">
+            <img class="hero__icon" src="img/svg/warranty.svg" alt="icon: warranty">
+            <span>Гарантия</span>
+          </li>
+          <li class="hero__item">
+            <img class="hero__icon" src="img/svg/quality.svg" alt="icon: quality">
+            <span>Качество</span>
+          </li>
+        </ul>        
+      </div>
+      <!-- /.hero-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.hero -->
+    
+  <section class="collection">
+    <div class="container container--collection">
+      <div class="collection-grid">
+        <img src="img/collection-1.jpg" alt="" class="collection__image collection__image--first">
+        <img src="img/collection-2.jpg" alt="" class="collection__image collection__image--second">
+        <img src="img/collection-3.jpg" alt="" class="collection__image collection__image--third">
+        <div class="collection__info">
+          <h2 class="collection__title">Новая зимняя коллекция</h2>
+          <p class="collection__text">Сейчас зимний сезон. Вы можете увидеть больше из этой коллекции, нажав кнопку ниже. Успейте купить, пока коллекция есть в наличии. Используйте код EHYA20, чтобы получить 20%&nbsp;скидку.</p>
+          <a href="#" class="collection__show">
+            <span class="show-text">Посмотреть коллекцию</span>
+            <img src="img/svg/arrow.svg" alt="">
+          </a>
+        </div>
+        <!-- /.collection__info -->
+      </div>
+      <!-- /.collection-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.collection -->
+  
+  <section class="trends">
+    <div class="container container--trends">
+      <div class="trends__header">
+        <h2 class="trends__title">Тренды</h2>
+        <ul class="trends__tabs">
+          <li data-target="new" class="trends__tab trends__tab--active">Новинки</li>
+          <li data-target="best" class="trends__tab">Лучшее</li>
+          <li data-target="soon" class="trends__tab">Скоро</li>
+        </ul>
+      </div>
+      <!-- /.trends__header -->
+      <ul class="trends__contents">
+        <li id="new" class="trends__content trends__content--active">
+          <div class="trends__cards">
+            <div class="trends__card">
+              <img src="img/trend-image-1.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Minimalist Style</h3>
+                <span class="trends__cost">
+                  $25.7
+                  <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+                </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-2.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Luxury Gown</h3>
+              <span class="trends__cost">
+                $30.6
+                <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+              </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-3.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Full Coloristy</h3>
+              <span class="trends__cost">
+                $25.7
+                <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+              </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-4.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Pinky Winky</h3>
+              <span class="trends__cost">
+                $109
+                <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+              </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-5.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Holiday Vibes</h3>
+              <span class="trends__cost">
+                $51.2
+                <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+              </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-6.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Swaggie Shaggy</h3>
+              <span class="trends__cost">
+                $81.3
+                <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+              </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-7.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Red Formal</h3>
+              <span class="trends__cost">
+                $66.8
+                <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+              </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <a href="#" onclick="return false;" class="trends__image trends__image--blue">
+                <img src="img/svg/plus.svg" alt="" class="plus">
+                <span class="trends__show">Смотреть<br>больше коллекций</span>
+              </a>
+              <!-- /.trends__image -->
+            </div>
+            <!-- /.trends__card -->
+          </div>
+          <!-- /.content-wrapper -->
+        </li>
+        <li id="best" class="trends__content">
+          <div class="trends__cards">
+            <div class="trends__card">
+              <img src="img/trend-image-1.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Minimalist Style</h3>
+                <span class="trends__cost">
+                  $25.7
+                  <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+                </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->            
+            <div class="trends__card">
+              <img src="img/Shape-3.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Full Coloristy</h3>
+              <span class="trends__cost">
+                $25.7
+                <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+              </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-8.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Luxury Gown</h3>
+              <span class="trends__cost">
+                $30.6
+                <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+              </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-5.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Holiday Vibes</h3>
+                <span class="trends__cost">
+                  $51.2
+                  <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+                </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-4.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Pinky Winky</h3>
+                <span class="trends__cost">
+                  $109
+                  <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+                </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->            
+            <div class="trends__card">
+              <img src="img/trend-image-6.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Swaggie Shaggy</h3>
+                <span class="trends__cost">
+                  $81.3
+                  <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+                </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-7.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Red Formal</h3>
+                <span class="trends__cost">
+                  $66.8
+                  <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+                </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <div class="trends__card">
+              <div class="trends__image trends__image--blue">
+                <img src="img/svg/plus.svg" alt="" class="plus">
+                <span class="trends__show">Смотреть больше коллекций</span>
+              </div>
+              <!-- /.trends__image -->
+            </div>
+            <!-- /.trends__card -->
+          </div>
+          <!-- /.content-wrapper -->
+        </li>
+        <li id="soon" class="trends__content">
+          <div class="trends__cards">
+            <div class="trends__card">
+              <img src="img/trend-image-1.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Minimalist Style</h3>
+                <span class="trends__cost">
+                  $25.7
+                  <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+                </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-7.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Red Formal</h3>
+              <span class="trends__cost">
+                $66.8
+                <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+              </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-4.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Pinky Winky</h3>
+                <span class="trends__cost">
+                  $109
+                  <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+                </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-5.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Holiday Vibes</h3>
+                <span class="trends__cost">
+                  $51.2
+                  <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+                </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-6.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Swaggie Shaggy</h3>
+                <span class="trends__cost">
+                  $81.3
+                  <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+                </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <!-- /.trends__card -->
+            <div class="trends__card">
+              <img src="img/trend-image-7.jpg" alt="" class="trends__image">
+              <div class="trends__info">
+                <h3 class="trends__name">Red Formal</h3>
+                <span class="trends__cost">
+                  $66.8
+                  <img class="shopping-cart" src="img/svg/shopping-cart.svg" alt="">
+                </span>
+              </div>
+              <!-- /.trends__info -->
+            </div>
+            <div class="trends__card">
+              <div class="trends__image trends__image--blue">
+                <img src="img/svg/plus.svg" alt="" class="plus">
+                <span class="trends__show">Смотреть больше коллекций</span>
+              </div>
+              <!-- /.trends__image -->
+            </div>
+            <!-- /.trends__card -->
+          </div>
+          <!-- /.content-wrapper -->
+        </li>
+      </ul>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.trends -->
+
+  <section class="reviews">
+    <div class="container container--reviews">
+      <div class="swiper-container reviews__slider">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide reviews__slide">
+            <img src="img/svg/quote-left.svg" alt="" class="reviews__quotes">
+            <p class="reviews__text">Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и новаторские.
+              Я покупала несколько раз из коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а
+              качество ткани просто превосходно. Я с нетерпением жду новых коллекций от сезона к сезону.</p>
+            <p class="reviews__text reviews__text--w768">
+              Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и новаторские. Я покупала несколько раз из коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а качество ткани просто превосходно. Я с нетерпением жду новых коллекций
+            </p>
+            <p class="reviews__text reviews__text--w320">
+              Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и новаторские. Я покупала несколько раз из коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а качество ткани просто превосходно.
+            </p>
+            <h3 class="reviews__autor">
+              <a href="#" class="user">Алисия Пума</a> - клиент Fashun
+            </h3>
+          </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide reviews__slide">
+            <img src="img/svg/quote-left.svg" alt="" class="reviews__quotes">
+            <p class="reviews__text reviews__text--w768 reviews__text--w320">
+              Нравится, что из сезона в сезон, коллекции не повторяются. Даже если модель похожа, то она будет в любом случае
+              отличаться либо аксессуарами, либо расцветкой. Точь в точь никогда не повторится.
+            </p>
+            <h3 class="reviews__autor">
+              <a href="#" class="user">Алисия Пума</a> - клиент Fashun
+            </h3>
+          </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide reviews__slide">
+            <img src="img/svg/quote-left.svg" alt="" class="reviews__quotes">
+            <p class="reviews__text">Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и новаторские.
+              Я покупала несколько раз из коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а
+              качество ткани просто превосходно. Я с нетерпением жду новых коллекций от сезона к сезону</p>
+              <p class="reviews__text reviews__text--w768">
+                Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и
+                новаторские. Я покупала несколько раз из коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а
+                качество ткани просто превосходно. Я с нетерпением жду новых коллекций
+              </p>
+              <p class="reviews__text reviews__text--w320">
+                Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и
+                новаторские. Я покупала несколько раз из коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а
+                качество ткани просто превосходно.
+              </p>
+            <h3 class="reviews__autor">
+              <a href="#" class="user">Алисия Пума</a> - клиент Fashun
+            </h3>
+          </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide reviews__slide">
+            <img src="img/svg/quote-left.svg" alt="" class="reviews__quotes">
+            <p class="reviews__text reviews__text--w768 reviews__text--w320">
+              Нравится, что из сезона в сезон, коллекции не повторяются. Даже если модель похожа, то она будет в любом случае
+              отличаться либо аксессуарами, либо расцветкой. Точь в точь никогда не повторится. Безусловно мне импонирует качество используемых материалов. Одежда отличается из приличных тканей. Одежда выглядят добротно, а также не портится после стирки, не скатывается и не вытягивается во время носки.
+            </p>
+            <h3 class="reviews__autor">
+              <a href="#" class="user">Алисия Пума</a> - клиент Fashun
+            </h3>
+          </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide reviews__slide">
+            <img src="img/svg/quote-left.svg" alt="" class="reviews__quotes">
+            <p class="reviews__text">Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и новаторские.
+              Я покупала несколько раз из коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а
+              качество ткани просто превосходно. Я с нетерпением жду новых коллекций от сезона к сезону</p>
+              <p class="reviews__text reviews__text--w768">
+                Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и
+                новаторские. Я покупала несколько раз из коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а
+                качество ткани просто превосходно. Я с нетерпением жду новых коллекций
+              </p>
+              <p class="reviews__text reviews__text--w320">Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и
+                новаторские. Я покупала несколько раз из коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а
+                качество ткани просто превосходно.
+              </p>
+            <h3 class="reviews__autor">
+              <a href="#" class="user">Алисия Пума</a> - клиент Fashun
+            </h3>
+          </div>
+          <!-- /.swiper-slide -->
+        </div>
+        <!-- /.swiper-wrapper -->
+      </div>
+      <!-- /.swiper-container -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.reviews -->
+
+  <section class="stories">
+    <div class="container container--stories">
+      <div class="stories-wrapper">
+        <div class="stories__info">
+          <a href="#" class="stories__tag tag">Истории</a>
+          <h2 class="stories__title">Это История Fashun</h2>
+          <h2 class="stories__title stories__title--mobile">История Fashun</h2>
+          <p class="stories__text">Ознакомьтесь с нашим рассказом о&nbsp;моде. Написано нашим дизайнером и&nbsp;специалистом.</p>
+          <div class="stories__buttons">
+            <img src="img/svg/button-prev.svg" alt="" class="stories__button stories__button--prev">
+            <img src="img/svg/button-next.svg" alt="" class="stories__button stories__button--next">
+          </div>
+          <!-- /.stories__buttons -->
+        </div>
+        <!-- /.stories__info -->
+        <div class="stories__slider swiper-container">
+          <div class="swiper-wrapper">
+            <div class="stories__slide swiper-slide">
+              <div class="stories__card">
+                <img src="img/Shape.jpg" alt="" class="stories__image">
+                <div class="stories__description">
+                  <span class="stories__theme">Mix & Match Style 01: повседневный и формальный стиль</span>
+                  <a href="#" class="stories__read">Читать далее</a>
+                </div>
+              </div>
+              <!-- /.stories__card -->
+              <div class="stories__card">
+                <img src="img/Shape-1.jpg" alt="" class="stories__image">
+                <div class="stories__description">
+                  <span class="stories__theme">Лайфхак: Купите одежду Thrifft на воскресном рынке</span>
+                  <a href="#" class="stories__read">Читать далее</a>
+                </div>
+              </div>
+              <!-- /.stories__card -->
+            </div>
+            <!-- /1 -->
+            <div class="stories__slide swiper-slide">
+              <div class="stories__card">
+                <img src="img/Shape-3.jpg" alt="" class="stories__image">
+                <div class="stories__description">
+                  <span class="stories__theme">Mix & Match Style 01: повседневный и формальный стиль</span>
+                  <a href="#" class="stories__read">Читать далее</a>
+                </div>
+              </div>
+              <!-- /.stories__card -->
+              <div class="stories__card">
+                <img src="img/Shape-4.jpg" alt="" class="stories__image">
+                <div class="stories__description">
+                  <span class="stories__theme">Лайфхак: Купите одежду Thrifft на воскресном рынке</span>
+                  <a href="#" class="stories__read">Читать далее</a>
+                </div>
+              </div>
+              <!-- /.stories__card -->
+            </div>
+            <!-- /2 -->
+            <div class="stories__slide swiper-slide">
+              <div class="stories__card">
+                <img src="img/Shape.jpg" alt="" class="stories__image">
+                <div class="stories__description">
+                  <span class="stories__theme">Mix & Match Style 01: повседневный и формальный стиль</span>
+                  <a href="#" class="stories__read">Читать далее</a>
+                </div>
+              </div>
+              <!-- /.stories__card -->
+              <div class="stories__card">
+                <img src="img/Shape-1.jpg" alt="" class="stories__image">
+                <div class="stories__description">
+                  <span class="stories__theme">Лайфхак: Купите одежду Thrifft на воскресном рынке</span>
+                  <a href="#" class="stories__read">Читать далее</a>
+                </div>
+              </div>
+              <!-- /.stories__card -->
+            </div>
+            <!-- /1 -->
+          </div>
+          <!-- /.swiper-wrapper -->
+        </div>
+        <!-- /.stories__slider -->
+      </div>
+      <!-- /.stories-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.stories -->
+</body>
+</html>
